@@ -10,7 +10,7 @@ trigger:
 variables:
   PYTHONUNBUFFERED: 1
   BB_V: -v6
-  BUILDSTRATEGY: Building;buildall
+  BUILDSTRATEGY: Building
   BB_SRC_ROOT: $(Agent.BuildDirectory)/bbsrc
   BDF_DIR: $(Build.ArtifactStagingDirectory)/bdf
   DIFFLOG_DIR: $(Build.ArtifactStagingDirectory)/difflog
